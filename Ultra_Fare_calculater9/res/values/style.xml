@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightTheme" parent="@android:style/Theme.Light">
+    </style>
+
+    <style name="BlackTheme" parent="@android:style/Theme.Black">
+    </style> 
+    <style name="NewButton.Button" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/new_button</item>
+</style>
+  <style name="NewButton.Button2" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/new_button2</item>
+</style>
+        
+        
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/flipper"
+    	android:layout_width="fill_parent" 
+    	android:background="@drawable/background23"
+    	android:layout_height="fill_parent">
+    	
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/all"/>
+    </LinearLayout>
+    
+    <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/first"/>
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/second"/>
+    </LinearLayout>
+    
+        <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/third"/>
+    </LinearLayout>
+    
+        <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/fourth"/>
+    </LinearLayout>
+    
+            <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	
+    	<TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="@drawable/fifth"/>
+    </LinearLayout>
+    
+</ViewFlipper>

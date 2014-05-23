@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget40"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/aboutbg"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget48"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="About"
+	android:textSize="35sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:layout_x="19dp"
+	android:layout_y="23dp" />
+<ScrollView
+	android:id="@+id/widget51"
+	android:layout_width="289px"
+	android:layout_height="293px"
+	android:layout_x="14dp"
+	android:layout_y="70dp">
+<AbsoluteLayout
+	android:id="@+id/widget54"
+	android:layout_width="280px"
+	android:layout_height="317px">
+<ImageView
+	android:id="@+id/widget55"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_x="8dp"
+	android:src="@drawable/intro" 
+	android:layout_y="7dp" />
+<TextView
+	android:id="@+id/widget57"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Developer"
+	android:textSize="20sp"
+	android:typeface="sans"
+	android:textStyle="bold"
+	android:layout_x="14dp"
+	android:layout_y="140dp" />
+<TextView
+	android:id="@+id/widget58"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="NARAYANAN C"
+	android:textSize="17sp"
+	android:layout_x="11dp"
+	android:layout_y="168dp" />
+<TextView
+	android:id="@+id/widget61"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Maharaja Surajmal Institute of Technology"
+	android:layout_x="12dp"
+	android:layout_y="188dp" />
+<TextView
+	android:id="@+id/widget62"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CSE, Fourth Year"
+	android:layout_x="13dp"
+	android:layout_y="209dp" />
+<TextView
+	android:id="@+id/widget63"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Ph: +91-9871029879"
+	android:layout_x="15dp"
+	android:layout_y="230dp" />
+<TextView
+	android:id="@+id/widget64"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="cnarayan12ster@gmail.com"
+	android:layout_x="15dp"
+	android:layout_y="252dp" />
+<TextView
+	android:id="@+id/widget65"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Terms &amp; Condition"
+	android:textStyle="bold|italic"
+	android:layout_x="8dp"
+	android:layout_y="293dp" />
+<TextView
+	android:id="@+id/widget66"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textSize="12sp"
+	android:layout_x="10dp"
+	android:layout_y="315dp" />
+</AbsoluteLayout>
+</ScrollView>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:layout_x="-5dp"
+    android:layout_y="388dp"
+    android:text="Button" />
+
+</AbsoluteLayout>

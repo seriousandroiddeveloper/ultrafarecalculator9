@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background2"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:id="@+id/widget33"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/count"
+	android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         style="@style/NewButton.Button2"
+        android:text="Please wait......" />
+
+</LinearLayout>
+<LinearLayout 
+	android:id="@+id/widget36"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+ <com.google.android.maps.MapView
+                android:id="@+id/mapview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:apiKey="0mVi31gFxZvDbEGZ9sIaXPMS4ZP_1R7QvxwupVA"
+                android:clickable="true"
+                android:enabled="true" />
+</LinearLayout>
+</LinearLayout>

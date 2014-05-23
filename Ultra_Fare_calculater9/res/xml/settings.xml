@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Set Default Title"
+        android:key="first2_category">
+        
+        <ListPreference
+                android:key="list_preference"
+                android:title="Set Default title on Metre"
+                android:summary="Set type of inforamtion on top of Get Fare activity"
+                android:entries="@array/entries_list_preference"
+                android:entryValues="@array/entryvalues_list_preference"
+                android:defaultValue="taxi"
+                android:dialogTitle="Set Default Title" />
+        
+        </PreferenceCategory>
+    
+    
+<PreferenceCategory
+        android:title="Set Taxi Fare"
+        android:key="first_category">
+            
+        <EditTextPreference
+
+           android:key="taxifirst"
+            android:title="Set First Km Charges"
+            
+            android:summary="Set first Kilometre Fare Charges "
+            android:dialogTitle="Initial First Kilometre"
+            android:inputType="number"
+            
+            android:defaultValue="20"
+             />
+             <EditTextPreference
+
+           android:key="taxirest"
+            android:title="Set Charges/Km second Km onward"
+            
+            android:summary="Set second and further Kilometre  Fare Charges "
+            android:dialogTitle="Second Kilometre onward"
+            
+            
+            android:defaultValue="11"
+             />
+                 
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Set Auto Fare"
+        android:key="second_category">
+            
+        <EditTextPreference
+
+           android:key="autofirst"
+            android:title="Set First 2 Km Charges"
+            
+            android:summary="Set first two Kilometre charges Fare Charges "
+            android:dialogTitle="Initial First Kilometre"
+            android:inputType="number"
+            
+            android:defaultValue="19"
+             />
+             <EditTextPreference
+
+           android:key="autorest"
+            android:title="Set Charges/Km second Km onward"
+            
+            android:summary="Set second and further Kilometre  Fare Charges "
+            android:dialogTitle="Second Kilometre onward"
+            
+            
+            android:defaultValue="6.5"
+             />
+                 
+    </PreferenceCategory>
+    
+    
+    
+
+</PreferenceScreen>
